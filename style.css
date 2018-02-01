@@ -1,6 +1,6 @@
 body
 {
-	background-color:#eaeaea;
+	background-color:#9CA2A1;
 	width: 800px;
 	margin: auto;
 	font-family: "Montserrat";
@@ -9,14 +9,14 @@ color: grey;
 
 .subbody
 {
-  background-color:#EDF7F2
-  border-radius: 3px;
+  background-color: white;
+  border-radius: 9px;
 	box-shadow: 2px 2px 5px 1px grey;
 	margin-left: 150px;
 	margin-right: 150px;
 	margin-top: 25px;
 	font-size: 14px;
-	line-height: 22px;
+	line-height: 25px;
   text-align: justify;
 }
 
@@ -34,21 +34,6 @@ color: grey;
 	text-align: center;
 
 }
-.socialbut
-{
-	display: inline-block;
-	-webkit-border-radius: 4;
-	-moz-border-radius: 4;
-	border-radius: 4px;
-	color: #ffffff;
-	font-size: 17px;
-	padding: 5px 5px 5px 5px;
-	text-decoration: none;
-	width: 40%;
-	margin-left: 30%;
-	margin-right: 30%;
-	text-shadow: 0px 0px 2px white;
-}
 
 .movies
 {
@@ -59,10 +44,9 @@ color: grey;
 	margin-right: 150px;
 	margin-top: 20px;
 }
-
 .button
 {
-	-webkit-border-radius: 4;
+	-webkit-border-radius: 6;
 	-moz-border-radius: 4;
 	border-radius: 4px;
 	color: #ffffff;
@@ -72,4 +56,96 @@ color: grey;
 	text-decoration: none;
 	width: 40%;
 	margin-left: 160px;
-text-shadow: 0px 0px 2px white;
+	text-shadow: 0px 0px 2px white;
+
+}
+.button:hover {
+  background: #FFFFFF;
+  text-decoration: none;
+
+}
+
+h2
+{
+  color: #cc0000;
+  text-align: center;
+}
+h3
+{
+  color:grey;
+  text-align: center;
+}
+#profil img
+{
+	overflow:hidden;
+	display: block;
+	width: 100px;
+	height: 100px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border:4px solid #c3c3c3;
+}
+.resume
+{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+ul
+{
+	width: 460px;
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+	float: left;
+	color: grey;
+}
+
+li a {
+    color: grey;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+
+table, th, td
+{
+	margin-left: 20px;
+	margin-right: 20px;
+	border-collapse: separate;
+    border-spacing: 25px 25px;
+}
+
+th
+{
+	font-size: 19px;
+}
+td
+{
+	text-align: center;
+}
+.affiches
+{
+	height:125px;
+
+}
+
+.textes
+{
+	text-align: justify;
+	font-size: 14px;
+	line-height: 29px;
+}
