@@ -18,6 +18,7 @@ color: grey;
 	font-size: 14px;
 	line-height: 25px;
   text-align: justify;
+	padding-bottom: 22px;
 }
 
 .social
@@ -60,7 +61,7 @@ color: grey;
 
 }
 .button:hover {
-  background: #FFFFFF;
+  background: red;
   text-decoration: none;
 
 }
